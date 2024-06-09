@@ -65,5 +65,5 @@ def update(frame):
 
 ani = FuncAnimation(fig, update, frames=200,interval=100,blit=True)
 writer = PillowWriter(fps=20)
-ani.save("./GIFs/2D_Diffusion.gif", writer=writer)
+ani.save("./outputs/2D_Diffusion.gif", writer=writer)
 plt.show()

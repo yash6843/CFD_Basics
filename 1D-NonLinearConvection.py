@@ -45,5 +45,5 @@ def update(frame):
 # Create the animation
 ani = FuncAnimation(fig, update, frames=nt)
 writer = PillowWriter(fps=20)  # Set frames per second for the animation
-ani.save("./GIFs/1D_NonLinConvection.gif", writer=writer)  # Save the animation as a GIF
+ani.save("./outputs/1D_NonLinConvection.gif", writer=writer)  # Save the animation as a GIF
 plt.show()  # Show the plot

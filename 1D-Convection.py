@@ -43,5 +43,5 @@ def update(frame):
 # Creating the animation
 ani = FuncAnimation(fig, update, frames=nt)
 writer = PillowWriter(fps=20)
-ani.save("./GIFs/1D_Convection.gif", writer=writer)
+ani.save("./outputs/1D_Convection.gif", writer=writer)
 plt.show()

@@ -112,7 +112,7 @@ def cavity_flow(nt, u, v, dt, dx, dy, p, rho, nu):
         
     ani = FuncAnimation(fig, update, frames=nt, repeat=False)
     writer = PillowWriter(fps=20)
-    ani.save("./GIFs/Cavity_flow.gif", writer=writer)
+    ani.save("./outputs/Cavity_flow.gif", writer=writer)
     plt.show()
 
 # Initialize the fields
