@@ -1,12 +1,12 @@
-# Computational Fluid Dynamics (CFD) Simulations
+# 🌊 Computational Fluid Dynamics (CFD) Simulations 🌊
 
 Welcome to my Computational Fluid Dynamics (CFD) repository! Here, I explored various numerical methods and simulations for solving fundamental fluid dynamics problems. From 1D linear and non-linear convection to extending my understanding to 2D and 3D Burger's equations, I delve into a wide range of CFD scenarios. Additionally, we tackle classic problems like the 2D cavity and Channel Flow using Navier-Stokes and Poisson equations.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 Special thanks to my Prof. Dr. Anirudh Kulkarni for organizing the 5-Day skill development workshop on Computational Fluid Dynamics. Your guidance and expertise have been invaluable in shaping my understanding of this complex subject matter.
 
-## Overview
+## 📚 Overview
 
 This repository hosts codes and outputs for the following simulations:
 
@@ -20,11 +20,11 @@ This repository hosts codes and outputs for the following simulations:
 - **2D Cavity Problem**
 - **Channel Flow with Navier-Stokes and Poisson Equations**
 
-## Workshop Summary
+## 📝 Workshop Summary
 
 For a comprehensive overview of the 5-Day skill development workshop on Computational Fluid Dynamics, please refer to the [Summary file](https://excalidraw.com/#json=_mDQc_ELXqBL6GKuobLM8,umxqaSDY7VjMoznzG7waGw). This file contains a detailed summary of the workshop covering various topics and concepts discussed throughout the sessions.
 
-## Simulations
+## 🚀 Simulations
 
 ### 1D Linear Convection
 
@@ -62,11 +62,11 @@ Description: Solving the classic 2D cavity problem, a fundamental test case in C
 
 Description: Simulation of channel flow using Navier-Stokes equations with Poisson pressure equation.
 
-## Results
+## 📊 Results
 
 Every file provides GIF or PNG outputs for each simulation in the `outputs` directory. Feel free to explore the behavior of fluid dynamics in different scenarios!
 
-## Usage
+## 🛠️ Usage
 
 To run the simulations, clone this repository and execute the respective scripts in your preferred environment.
 
@@ -76,12 +76,12 @@ cd CFD_Basics
 python 1D-Convection.py
 ```
 
-## Dependencies
+## 🧩 Dependencies
 
 - Python 3.x
 - NumPy
 - Matplotlib
 
-## Contributions
+## 🤝 Contributions
 
 Contributions are welcome! If you have ideas for improvements or new simulations, feel free to open an issue or submit a pull request.
