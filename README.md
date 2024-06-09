@@ -1,6 +1,6 @@
 # Computational Fluid Dynamics (CFD) Simulations
 
-Welcome to our Computational Fluid Dynamics (CFD) repository! Here, I explored various numerical methods and simulations for solving fundamental fluid dynamics problems. From 1D linear and non-linear convection to extending my understanding to 2D and 3D Burger's equations, I delve into a wide range of CFD scenarios. Additionally, we tackle classic problems like the 2D cavity and Channel Flow using Navier-Stokes and Poisson equations.
+Welcome to my Computational Fluid Dynamics (CFD) repository! Here, I explored various numerical methods and simulations for solving fundamental fluid dynamics problems. From 1D linear and non-linear convection to extending my understanding to 2D and 3D Burger's equations, I delve into a wide range of CFD scenarios. Additionally, we tackle classic problems like the 2D cavity and Channel Flow using Navier-Stokes and Poisson equations.
 
 ## Acknowledgments
 
@@ -22,7 +22,7 @@ This repository hosts codes and outputs for the following simulations:
 
 ## Workshop Summary
 
-For a comprehensive overview of the 5-Day skill development workshop on Computational Fluid Dynamics, please refer to the [Summary file](https://excalidraw.com/#json=_mDQc_ELXqBL6GKuobLM8,umxqaSDY7VjMoznzG7waGw) included in this repository. This file contains a detailed summary of the workshop covering various topics and concepts discussed throughout the sessions.
+For a comprehensive overview of the 5-Day skill development workshop on Computational Fluid Dynamics, please refer to the [Summary file](https://excalidraw.com/#json=_mDQc_ELXqBL6GKuobLM8,umxqaSDY7VjMoznzG7waGw). This file contains a detailed summary of the workshop covering various topics and concepts discussed throughout the sessions.
 
 ## Simulations
 
