@@ -37,10 +37,11 @@ def update(_):
     global u, un
     un = u.copy()  # Copy the current velocity field
     # Apply the finite difference method to update the velocity field
-    u[1 : nx - 1] = (
-        un[1 : nx - 1]
-        + nu * (dt / (dx**2)) * (un[2:nx] - 2 * un[1 : nx - 1] + un[0 : nx - 2])  # Diffusion term
-        - un[1 : nx - 1] * (dt / dx) * (un[1 : nx - 1] - un[0 : nx - 2])  # Convection term
+    u[1 :-1] = (
+
+        un[1 : -1]
+        + nu * (dt / (dx**2)) * (un[2:] - 2 * un[1 :-1] + un[0 : -2])  # Diffusion term
+        - un[1 : - 1] * (dt / dx) * (un[1 : -1] - un[0 : -2])  # Convection term
     )
     line2.set_ydata(u)  # Update the plot with the new velocity field
     ax.set_title(f'1D Burgers Equation (Frame {_})')  # Update the plot title with the current frame number
