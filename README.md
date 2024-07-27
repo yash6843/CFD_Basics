@@ -6,6 +6,10 @@ Welcome to my Computational Fluid Dynamics (CFD) repository! Here, I explored va
 
 Special thanks to my Prof. Dr. Anirudh Kulkarni for organizing the 5-Day skill development workshop on Computational Fluid Dynamics. Your guidance and expertise have been invaluable in shaping my understanding of this complex subject matter.
 
+## ✨ Introduction
+
+This repository focuses on solving fundamental fluid dynamics problems using the Finite Difference Method (FDM). FDM is a numerical technique for solving differential equations by approximating them with difference equations, leveraging Taylor series expansions. While it is widely used for its simplicity and effectiveness, it is considered an obsolete method in the context of modern CFD, as newer techniques have surpassed it in terms of accuracy and efficiency.
+
 ## 📚 Overview
 
 This repository hosts codes and outputs for the following simulations:
